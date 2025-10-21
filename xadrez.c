@@ -19,8 +19,13 @@ int main() {
     {
         printf("Cima, Direita\n");
     }
-    
-    
 
+    printf("\nMovimento da Rainha\n");
+    for (i = 1; i <= casasRainha; i++)
+    {
+        printf("Esquerda\n");
+    }
+    
+    
     return 0;
 }
