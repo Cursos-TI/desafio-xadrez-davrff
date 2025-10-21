@@ -8,11 +8,18 @@ int main() {
 
     int i;
 
-    printf("Movimento da Torre\n");
-    for (i = 1; i < casasTorre; i++)
+    printf("Movimento da Torre:\n");
+    for (i = 1; i <= casasTorre; i++)
     {
         printf("Direita\n");
     }
+
+    printf("\nMovimento do Bispo:\n");
+    for (i = 1; i <= casasBispo; i++)
+    {
+        printf("Cima, Direita\n");
+    }
+    
     
 
     return 0;
