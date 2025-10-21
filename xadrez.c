@@ -8,5 +8,12 @@ int main() {
 
     int i;
 
+    printf("Movimento da Torre\n");
+    for (i = 1; i < casasTorre; i++)
+    {
+        printf("Direita\n");
+    }
+    
+
     return 0;
 }
